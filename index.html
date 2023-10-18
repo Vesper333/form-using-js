@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+    <title>Form Validation Using Javascript</title>
+</head>
+<body>
+    <h1 class="name">Vmail</h1>
+    <form action="https://www.google.com/" name="myForm" onsubmit="return validateForm()" method="get" >
+
+        <div class="formDesign" id="name">
+          Name:<input type="text" name="fname" required>
+          <b><span class="formerror" id="nameError"></span></b>
+        </div>
+
+        <div class="formDesign" id="email">
+          Email:<input type="email" name="fename" required>
+          <b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formDesign" id="phone">
+          Phone:<input type="tel" name="fphone" required>
+          <b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formDesign" id="password">
+          Password:<input type="password" name="fpass" required>
+          <b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formDesign" id="confirmpassword">
+          Confirm Password:<input type="password" name="fcpass" required>
+          <b><span class="formerror"></span></b>
+        </div>
+
+        <input class="but" type="submit" value="submit">
+      
+    </fo
+    rm>
+    <script src="script.js"></script>
+</body>
+</html>

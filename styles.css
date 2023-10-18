@@ -1,0 +1,21 @@
+.name{
+    color:red;
+    padding:0% 45%;
+}
+.formDesign{
+    font-size: 30px;
+}
+.formDesign input{
+    width:30%;
+    border: 2px solid #22a17d;
+}
+.formerror{
+    color:red;
+}
+.but{
+    border-radius: 9px;
+    width: 100px;
+    height: 50px;
+    font-size:25px;
+    margin: 22px 20px;
+}
